@@ -16,7 +16,8 @@ setup(
     author_email='TC@GeekMinistry.org',
     description='Extension to add FreeIPA\'s API to a Flask app',
     long_description=__doc__,
-    py_modules=['flask_freeipa'],
+    packages=['flask_freeipa']
+    #py_modules=['flask_freeipa'],
     zip_safe=False,
     include_package_data=True,
     platforms='any',
