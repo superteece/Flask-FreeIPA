@@ -1,0 +1,25 @@
+Metadata-Version: 1.1
+Name: Flask-FreeIPA
+Version: 1.0
+Summary: Extension to add FreeIPA's API to a Flask app
+Home-page: https://github.com/superteece/Flask-FreeIPA.git
+Author: TC Johnson
+Author-email: TC@GeekMinistry.org
+License: MIT
+Description: 
+        Flask-FreeIPA
+        -------------
+        
+        This is the description for that library
+        
+Platform: any
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Software Development :: Libraries :: Python Modules

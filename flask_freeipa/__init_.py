@@ -1,4 +1,4 @@
-import python_freeipa as freeipa
+import python_freeipa
 from python_freeipa import Client
 from flask import abort, current_app, g, make_response, \
         redirect, url_for, request
