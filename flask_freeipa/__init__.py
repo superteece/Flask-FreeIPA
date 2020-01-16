@@ -59,4 +59,20 @@ class IPA(object):
         except freeipa.exceptions:
             return
 
+    def get_user_info(self, username):
+        try:
+            conn = Client(current_app.config['IPA_HOST'])
+            info = conn.user_show(username)
+            return info
+        except freeipa.exceptions as e:
+            raise IPAException(self.error(e.args))
 
+    def member_of(self, username):
+        try:
+            info = self.get_user_info(username)
+            return info['memberof_group']
+        except freeipa.exceptions as e:
+             raise IPAException(self.error(e.args))
+
+    def list_groups(self):
+        try:
