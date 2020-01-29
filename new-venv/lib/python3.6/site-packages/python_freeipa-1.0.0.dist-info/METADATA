@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: python-freeipa
+Version: 1.0.0
+Summary: Lightweight FreeIPA client
+Home-page: http://waldur.com
+Author: OpenNode Team
+Author-email: info@opennodecloud.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: System :: Systems Administration :: Authentication/Directory
+Requires-Dist: requests
+Provides-Extra: tests
+Requires-Dist: responses ; extra == 'tests'
+
+python-freeipa is lightweight FreeIPA client.
+API documentation: https://python-freeipa.readthedocs.io/
+
+
